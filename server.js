@@ -33,10 +33,10 @@ app.post('/api/login', function (req, res) {
                 res.send(200, user);
             }
             else
-                res.send(400,{message:'hey lady, you sent me the wrong password.'});
+                res.send(500,{message:'hey lady, you sent me the wrong password.'});
 
         }else
-            res.send(400,{message:'hey man, you sent me the wrong email.'});
+            res.send(500,{message:'hey man, you sent me the wrong email.'});
 
     }
     else
