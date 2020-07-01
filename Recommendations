@@ -1,0 +1,25 @@
+Recomendations:
+This is a list of recommendations to make this project better 
+(UI, UX, Performance, Security, Architecture, Bug fix, New Feature, ...etc )
+
+// Please make your recommendations as clear as possible with only a few sentences 
+
+1.index.html line 50 & 51 put the script out of html tag
+
+2.server.js line 16 you are calling function called next() that is not exist.
+
+3.save image file to folder in project instead image url on internet
+
+4.server.js you shouldn't return password with json object because of security.
+
+5.server.js line 36 & 39 the password or email is incorrect http response status code is 500(Internal server error) not 400
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
