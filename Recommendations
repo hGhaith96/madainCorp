@@ -14,12 +14,17 @@ This is a list of recommendations to make this project better
 
 5.server.js line 36 & 39 the password or email is incorrect http response status code is 500(Internal server error) not 400
 
-6.
+6.index.html line 47 the button onClick() should http.post('/api/changePassword', with params user and new password) and in server.js add function
+to change user password.
 
-7.
+7.Add folder called css to style html pages.
 
-8.
+8.Add alt attribute to image for SEO.
 
-9.
+9.Username & password for superadmin should be read from config file not fixed in code.
 
-10.
+10.index.html you should not bind user.profilePic till success login (Console error).
+
+11.index.html line 36 button type submit without form tag.
+
+12.
